@@ -139,7 +139,7 @@ Bringing machine 'tfe' up with 'virtualbox' provider...
 * TFE components need some time for first initialization.  You may poll the _/_health_check_ endpoint until a _200_ is returned by the application, indicating that it is fully started:
 
 ```
-while ! curl -ksfS --connect-timeout 5 https://192.168.20.10/_health_check; do sleep 5 ; done
+while ! curl -ksfS --connect-timeout 5 https://192.168.20.11/_health_check; do sleep 5 ; done
 ```
 
 _sample_:
