@@ -184,7 +184,7 @@ curl: (22) The requested URL returned error: 502 Bad Gateway
 ![image](https://user-images.githubusercontent.com/85481359/132823624-78c0fb2c-0f98-4cec-b40f-b952befa6031.png)
 
 
-* Once TFE is fully started, visit [192.168.20.11:8800](http:192.168.20.10:8800) in your browser
+* Once TFE is fully started, visit [192.168.20.11:8800](http:192.168.20.11:8800) in your browser
 
 ![image](https://user-images.githubusercontent.com/85481359/132824324-6be8590f-ca89-4c25-8982-0f2f2be39db1.png)
 
