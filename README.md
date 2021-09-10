@@ -1,11 +1,11 @@
-# tfe-vagrant
-Install TFE on Demo version with Self Sign Certificate - vagrant -VirtualBox
-
+# tfe-proxy-selfsigned-vagrant
+What : Install TFE on Demo version with Self Sign Certificate - proxy with self sign certifcate - vagrant  
+How : TFE > Man-in-the-middle proxy via mitmproxy > Internet.  
+Why : Learn TFE
 
 ## Pre-requirements
 
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
-* [Terraform cli](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 * [Vagrant](https://www.vagrantup.com/docs/installation)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
