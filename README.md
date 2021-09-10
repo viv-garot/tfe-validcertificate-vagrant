@@ -76,6 +76,10 @@ Bringing machine 'tfe' up with 'virtualbox' provider...
  [ ... ]
  
     mitmproxy: Otherwise pipx is ready to go! ✨ 🌟 ✨
+    mitmproxy: ⚠️  Note: '/home/vagrant/.local/bin' is not on your PATH environment variable.
+    mitmproxy:     These apps will not be globally accessible until your PATH is updated. Run
+    mitmproxy:     `pipx ensurepath` to automatically add it, or manually modify your PATH in
+    mitmproxy:     your shell's config file (i.e. ~/.bashrc).
     mitmproxy: creating virtual environment...
     mitmproxy: creating shared libraries...
     mitmproxy: upgrading shared libraries...
@@ -87,11 +91,8 @@ Bringing machine 'tfe' up with 'virtualbox' provider...
     mitmproxy:     - mitmweb
     mitmproxy:     - pathoc
     mitmproxy:     - pathod
-    mitmproxy: ⚠️  Note: '/home/vagrant/.local/bin' is not on your PATH environment variable.
-    mitmproxy:     These apps will not be globally accessible until your PATH is updated. Run
-    mitmproxy:     `pipx ensurepath` to automatically add it, or manually modify your PATH in
-    mitmproxy:     your shell's config file (i.e. ~/.bashrc).
     mitmproxy: done! ✨ 🌟 ✨
+    mitmproxy: Created symlink /etc/systemd/system/multi-user.target.wants/mitmproxy.service → /etc/systemd/system/mitmproxy.service.
 ==> tfe: Importing base box 'vivien/bionic64'...
 ==> tfe: Matching MAC address for NAT networking...
 ==> tfe: Checking if box 'vivien/bionic64' version '21.07.06' is up to date...
@@ -179,7 +180,7 @@ curl: (22) The requested URL returned error: 502 Bad Gateway
 {"postgres":"UP","redis":"UP","vault":"UP"}
 ```
 
-* Meanwhile you can check the mitmproxy VM webpage, [192.168.20.10:8081](http:192.168.20.10:8081) in your browser
+* Meanwhile you can check the traffic in the mitmproxy VM webpage, [192.168.20.10:8081](http:192.168.20.10:8081) in your browser
 
 ![image](https://user-images.githubusercontent.com/85481359/132823624-78c0fb2c-0f98-4cec-b40f-b952befa6031.png)
 
