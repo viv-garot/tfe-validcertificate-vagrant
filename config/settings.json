@@ -27,7 +27,7 @@
     "gcs_credentials": {},
     "gcs_project": {},
     "hostname": {
-        "value": "192.168.20.11"
+        "value": "192.168.20.11.nip.io"
     },
     "installation_type": {
         "value": "poc"
