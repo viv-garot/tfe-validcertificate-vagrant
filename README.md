@@ -1,6 +1,6 @@
-# tfe-proxy-selfsigned-vagrant
-What : Install TFE on Demo version with Self Sign Certificate - proxy with self sign certifcate - vagrant  
-How : TFE > Man-in-the-middle proxy via mitmproxy > Internet.  
+# Description
+What : Install TFE on Demo version with Valid Certificate - vagrant  
+How : TFE auto install in local VM with valid certificate  
 Why : Learn TFE
 
 ## Pre-requirements
@@ -21,13 +21,13 @@ Why : Learn TFE
 ### Clone the repo
 
 ```
-git clone https://github.com/viv-garot/tfe-proxy-selfsigned-vagrant
+git clone https://github.com/viv-garot/tfe-validcertificate-vagrant
 ```
 
 ### Change directory
 
 ```
-cd tfe-proxy-selfsigned-vagrant
+cd tfe-validcertificate-vagrant
 ```
 
 ### Run
