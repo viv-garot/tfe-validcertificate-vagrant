@@ -1,7 +1,11 @@
 # Description
-What : Install TFE on Demo version with Valid Certificate - vagrant  
-How : TFE auto install in local VM with valid certificate (The cert files have been created previously via *Let's encrypt*'s certbot client)
-Why : Learn TFE
+What : Install TFE on Demo version with Valid Certificate - vagrant.   
+How : TFE auto install in local VM with valid certificate.  
+Why : Learn TFE. 
+
+## Note
+
+The cert files have been created via *Let's encrypt*'s certbot client. See [here](https://docs.google.com/document/d/1nQtuw4DQl0-q42JeXGG8QvEcdlgHn6v-P6UE92OU5fg/edit#heading=h.z7z528uv2mdo).
 
 ## Pre-requirements
 
